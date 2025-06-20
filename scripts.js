@@ -30,13 +30,15 @@ const projectData = {
     `,
     techStack: ['Unity', 'C#', 'Game Development', '2D Graphics', 'Audio Design'],
     links: [
-      { text: 'Play Game', url: 'https://your-game-website.com' },
-      { text: 'Source Code', url: 'https://github.com/ayush434/horror-game' }
+      { text: 'Play Game', url: 'https://play.unity.com/en/games/31ecf7b2-afd8-4171-b69c-a2d4dd0a8996/key-to-escape' },
+      { text: 'Source Code', url: 'https://github.com/berrisaur/385FinalProject' }
     ],
     screenshots: [
-      'assets/screenshots/horror-game-1.jpg',
-      'assets/screenshots/horror-game-2.jpg',
-      'assets/screenshots/horror-game-3.jpg'
+      'assets/screenshots/horror-game/pic1.png',
+      'assets/screenshots/horror-game/pic2.png',
+      'assets/screenshots/horror-game/pic3.png',
+      'assets/screenshots/horror-game/pic4.png',
+      'assets/screenshots/horror-game/pic5.png'
     ]
   },
   'social-network': {
@@ -50,19 +52,18 @@ const projectData = {
         <li><strong>Follow System:</strong> Follow/unfollow users and view personalized feeds</li>
         <li><strong>Like & Comment:</strong> Interactive features for user engagement</li>
         <li><strong>AJAX Pagination:</strong> Smooth infinite scrolling for better UX</li>
-        <li><strong>Real-time Updates:</strong> Live notifications and feed updates</li>
       </ul>
     `,
     techStack: ['Django', 'JavaScript', 'AJAX', 'SQLite', 'Bootstrap', 'CSS3'],
     links: [
-      { text: 'Watch Demo', url: 'https://youtube.com/watch?v=your-video-id' },
-      { text: 'Live Demo', url: 'https://your-social-network.com' },
-      { text: 'Source Code', url: 'https://github.com/ayush434/social-network' }
+    //   { text: 'Watch Demo', url: 'https://youtube.com/watch?v=your-video-id' },
+    //   { text: 'Live Demo', url: 'https://your-social-network.com' },
+    //   { text: 'Source Code', url: 'https://github.com/ayush434/social-network' }
     ],
     screenshots: [
-      'assets/screenshots/social-network-1.jpg',
-      'assets/screenshots/social-network-2.jpg',
-      'assets/screenshots/social-network-3.jpg'
+      'assets/screenshots/Network01.png',
+      'assets/screenshots/Network02.png',
+      'assets/screenshots/Network03.png'
     ]
   },
   'stock-simulator': {
@@ -74,20 +75,17 @@ const projectData = {
         <li><strong>Real-time Data:</strong> Live stock prices and market information</li>
         <li><strong>Portfolio Management:</strong> Track investments, gains, and losses</li>
         <li><strong>Trading Interface:</strong> Intuitive buy/sell functionality</li>
-        <li><strong>Market Analysis:</strong> Charts and historical data visualization</li>
-        <li><strong>Risk Management:</strong> Stop-loss and limit order features</li>
-        <li><strong>Educational Content:</strong> Trading tutorials and tips</li>
       </ul>
     `,
     techStack: ['Flask', 'Python', 'SQL', 'JavaScript', 'Chart.js', 'APIs'],
     links: [
-      { text: 'Live Demo', url: 'https://your-stock-simulator.com' },
-      { text: 'Source Code', url: 'https://github.com/ayush434/stock-simulator' }
+    //   { text: 'Live Demo', url: 'https://your-stock-simulator.com' },
+    //   { text: 'Source Code', url: 'https://github.com/ayush434/stock-simulator' }
     ],
     screenshots: [
-      'assets/screenshots/stock-simulator-1.jpg',
-      'assets/screenshots/stock-simulator-2.jpg',
-      'assets/screenshots/stock-simulator-3.jpg'
+    //   'assets/screenshots/stock-simulator-1.jpg',
+    //   'assets/screenshots/stock-simulator-2.jpg',
+    //   'assets/screenshots/stock-simulator-3.jpg'
     ]
   },
   'craigslist-poster': {
@@ -106,12 +104,12 @@ const projectData = {
     `,
     techStack: ['Puppeteer', 'JavaScript', 'Node.js', 'JSON', 'Web Scraping'],
     links: [
-      { text: 'Source Code', url: 'https://github.com/ayush434/craigslist-poster' },
-      { text: 'Documentation', url: 'https://github.com/ayush434/craigslist-poster#readme' }
+    //   { text: 'Source Code', url: 'https://github.com/ayush434/craigslist-poster' },
+    //   { text: 'Documentation', url: 'https://github.com/ayush434/craigslist-poster#readme' }
     ],
     screenshots: [
-      'assets/screenshots/craigslist-poster-1.jpg',
-      'assets/screenshots/craigslist-poster-2.jpg'
+    //   'assets/screenshots/craigslist-poster-1.jpg',
+    //   'assets/screenshots/craigslist-poster-2.jpg'
     ]
   }
 };
