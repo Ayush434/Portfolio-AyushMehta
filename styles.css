@@ -491,6 +491,218 @@ h3 {
   line-height: 1.6;
   position: relative;
   z-index: 1;
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  position: relative;
+  z-index: 1;
+  margin-top: 1rem;
+}
+
+.project-link {
+  display: inline-block;
+  background: var(--accent-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.project-link:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+/* References Section */
+.references-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.reference-card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-color);
+  text-align: center;
+}
+
+.reference-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.reference-card h3 {
+  color: var(--accent-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.reference-card p {
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.reference-card p:first-of-type {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(5px);
+  animation: fadeIn 0.3s ease;
+}
+
+.modal-content {
+  background: var(--card-bg);
+  margin: 5% auto;
+  padding: 2rem;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 800px;
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+  animation: slideIn 0.3s ease;
+  box-shadow: var(--shadow-hover);
+}
+
+.close {
+  color: var(--text-secondary);
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.close:hover {
+  color: var(--accent-color);
+  transform: scale(1.1);
+}
+
+.modal h2 {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.modal h2::after {
+  display: none;
+}
+
+.modal h3 {
+  color: var(--text-primary);
+  margin: 1.5rem 0 0.5rem 0;
+  font-size: 1.3rem;
+}
+
+.modal p {
+  color: var(--text-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.modal .tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.modal .tech-stack span {
+  background: var(--skill-bg);
+  color: var(--skill-text);
+  padding: 0.3rem 0.8rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.modal .project-links {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.modal .project-links a {
+  display: inline-block;
+  background: var(--accent-color);
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.modal .project-links a:hover {
+  background: #764ba2;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.modal .screenshots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.modal .screenshot {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.modal .screenshot:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-hover);
+}
+
+.modal .screenshot img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Contact Section */
