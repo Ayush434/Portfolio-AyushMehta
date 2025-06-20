@@ -34,11 +34,11 @@ const projectData = {
       { text: 'Source Code', url: 'https://github.com/berrisaur/385FinalProject' }
     ],
     screenshots: [
-      'assets/screenshots/horror-game/pic1.png',
-      'assets/screenshots/horror-game/pic2.png',
-      'assets/screenshots/horror-game/pic3.png',
-      'assets/screenshots/horror-game/pic4.png',
-      'assets/screenshots/horror-game/pic5.png'
+      'assets/Screenshots/horror-game/pic1.png',
+      'assets/Screenshots/horror-game/pic2.png',
+      'assets/Screenshots/horror-game/pic3.png',
+      'assets/Screenshots/horror-game/pic4.png',
+      'assets/Screenshots/horror-game/pic5.png'
     ]
   },
   'social-network': {
@@ -61,9 +61,9 @@ const projectData = {
     //   { text: 'Source Code', url: 'https://github.com/ayush434/social-network' }
     ],
     screenshots: [
-      'assets/screenshots/Network01.png',
-      'assets/screenshots/Network02.png',
-      'assets/screenshots/Network03.png'
+      'assets/Screenshots/Network01.png',
+      'assets/Screenshots/Network02.png',
+      'assets/Screenshots/Network03.png'
     ]
   },
   'stock-simulator': {
