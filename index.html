@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayush Mehta | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+
+  <!-- 🌐 Navigation Bar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">Ayush Mehta</h1>
+      <button class="mobile-menu-btn" id="mobile-menu-btn">☰</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#references">References</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="assets/resume.pdf" download>Resume</a></li>
+        <li>
+          <button class="theme-toggle" id="theme-toggle">
+            <span id="theme-icon">🌙</span>
+            <span id="theme-text">Dark</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 🌟 Hero Section -->
+  <header class="hero" id="home">
+    <div class="container">
+      <h1>Ayush Mehta</h1>
+      <p>Software Engineer | Builder | Learner</p>
+      <div class="links">
+        <a href="mailto:Ayushmehta099@gmail.com">Email</a>
+        <a href="https://linkedin.com/in/ayushmehta099" target="_blank">LinkedIn</a>
+        <a href="https://github.com/ayush434" target="_blank">GitHub</a>
+        <a href="https://youtube.com/@ayushmehta099" target="_blank">YouTube</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 👨‍💻 About Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>B.S. in Computer Science & Software Engineering from University of Washington Bothell. Passionate about building impactful tools, solving real-world problems, and learning new technologies.</p>
+      <h3>Skills</h3>
+      <ul class="skills">
+        <li>Python</li><li>Java</li><li>JavaScript</li><li>SQL</li><li>C#</li><li>Django</li>
+        <li>Flask</li><li>React</li><li>Unity</li><li>CI/CD</li><li>REST APIs</li><li>ML</li>
+        <li>Figma</li><li>Git</li><li>Github</li><li>Unity</li><li>PowerShell</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 💼 Experience Section -->
+  <section id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <div class="job">
+        <h3>Software Build Engineer – Microsoft via Tech Mahindra</h3>
+        <p><em>Dec 2021 – Mar 2023</em></p>
+        <ul>
+            <li>Built Python scripts to compare OS driver JSONs and generate CSV diffs, cutting manual time by 90%.</li>
+            <li>Automated Azure package downloads with PowerShell + REST APIs via YAML pipelines.</li>
+            <li>Scripted artifact validation to replace manual checks, saving 3 hours/task and improving accuracy.</li>
+            <li>Troubleshot CI/CD failures and debugged builds using local VM images, reducing downtime by 30%.</li>
+            <li>Resolved server build issues, slashing average debug time by 8 hours/build.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Mixed Reality Moderator – Microsoft via Q Analysts</h3>
+        <p><em>Mar 2021 – Aug 2021</em></p>
+        <ul>
+          <li>Managed large-scale data offloading 2+ TB using CMD, PowerShell, Tshell, and Telnet.</li>
+          <li>Collected data to enhance HoloLens outdoor performance and environmental adaptation.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3>Software Engineering Intern – Microsoft</h3>
+        <p><em>Mar 2020 – Oct 2020</em></p>
+        <ul>
+            <li>Converted 5+ legacy build pipelines to YAML weekly, improving CI/CD version control.</li>
+            <li>Analyzed pipeline errors using Azure DevOps, identifying and resolving 6+ issues per week.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🚀 Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card" data-project="horror-game">
+          <h3>2D Horror Escape Game</h3>
+          <p>Unity, C#</p>
+          <p>Platformer with survival, circular light mechanic and key-based escape.</p>
+          <div class="project-links">
+            <a href="https://ayush434.github.io/Key-To-Escape-HorrorGame/" class="project-link" target="_blank">View Project</a>
+          </div>
+        </div>
+        <div class="project-card" data-project="social-network">
+          <h3>Social Network Platform</h3>
+          <p>Django, JavaScript</p>
+          <p>Twitter-style app with posts, follow system, AJAX pagination, likes.</p>
+          <div class="project-links">
+            <a href="https://www.youtube.com/watch?v=DoDM4qlRTg8&pp=0gcJCb4JAYcqIYzv" class="project-link" target="_blank">Watch Demo</a>
+          </div>
+        </div>
+        <div class="project-card" data-project="stock-simulator">
+          <h3>Stock Market Simulator</h3>
+          <p>Flask, Python, SQL</p>
+          <p>Simulates buying/selling stocks with portfolio and real-time data.</p>
+        </div>
+        <div class="project-card" data-project="craigslist-poster">
+          <h3>Craigslist AutoPoster</h3>
+          <p>Puppeteer, JS</p>
+          <p>Automates listing items from JSON on Craigslist using form simulation.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📚 References Section -->
+  <section id="references">
+    <div class="container">
+      <h2>References</h2>
+      <div class="references-grid">
+        <div class="reference-card">
+          <h3>Rathi Kartheek</h3>
+          <p><em>Senior Software Development Engineer</em></p>
+          <p>Microsoft Corporation</p>
+          <p>Email: rkartheek@microsoft.com</p>
+          <p>Phone: (408) 799-4399</p>
+        </div>
+        <div class="reference-card">
+          <h3>Thang Nguyen</h3>
+          <p><em>Support Engineer</em></p>
+          <p>Prime Video LiveOps</p>
+          <p>Email: Thangnnguyen96@gmail.com</p>
+          <p>Phone: (206) 384-9769</p>
+        </div>
+        <div class="reference-card">
+          <h3>Agampreet Singh</h3>
+          <p><em>Soon to be Software Engineer</em></p>
+          <p>Amazon</p>
+          <p>Email: agampreet.singh2003@gmail.com</p>
+          <p>Phone: (425) 598-3133</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📬 Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:Ayushmehta099@gmail.com">Ayushmehta099@gmail.com</a></p>
+      <p>Phone: 206-354-7871</p>
+      <p>Connect:
+        <a href="https://linkedin.com/in/ayushmehta099" target="_blank">LinkedIn</a> |
+        <a href="https://github.com/ayush434" target="_blank">GitHub</a> |
+        <a href="https://youtube.com/@ayushmehta099" target="_blank">YouTube</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- 🔻 Footer -->
+  <footer>
+    <div class="container footer-container">
+      <p>&copy; <span id="year"></span> Ayush Mehta. All rights reserved.</p>
+      <p><a href="assets/resume.pdf" download>Download Resume (PDF)</a></p>
+    </div>
+  </footer>
+
+  <!-- 🎯 Project Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-content">
+        <!-- Content will be dynamically loaded -->
+      </div>
+    </div>
+  </div>
+</body>
+</html>
