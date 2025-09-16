@@ -111,6 +111,38 @@ const projectData = {
     //   'assets/screenshots/craigslist-poster-1.jpg',
     //   'assets/screenshots/craigslist-poster-2.jpg'
     ]
+  },
+  'snackhack': {
+    title: 'SnackHack - AI Cooking Assistant',
+    description: 'An AI-powered cooking assistant that helps you discover recipes using ingredients you already have, with image recognition and dietary preference support.',
+    longDescription: `
+      <p>SnackHack is an innovative AI cooking assistant that transforms your available ingredients into delicious meal suggestions. The application features:</p>
+      <ul>
+        <li><strong>🍳 Use What You Have:</strong> Transform ingredients sitting in your fridge into delicious meals, reducing food waste</li>
+        <li><strong>🤖 AI-Powered Recipes:</strong> Get personalized recipe suggestions powered by advanced AI technology</li>
+        <li><strong>⚡ Quick & Easy:</strong> Find recipes in seconds, perfect for busy schedules and spontaneous cooking</li>
+        <li><strong>🍽️ Dietary Preferences:</strong> Customize recipes for your dietary needs - vegetarian, gluten-free, and more</li>
+        <li><strong>📸 Image Recognition:</strong> Take photos of ingredients for automatic detection</li>
+        <li><strong>✅ Ingredient Validation:</strong> Smart validation ensures you're using real food items</li>
+        <li><strong>👥 Serving Sizes:</strong> Adjust recipes for 1-10 people automatically</li>
+        <li><strong>📱 Mobile Friendly:</strong> Works perfectly on all devices</li>
+      </ul><br>
+      <p><strong>How It Works:</strong></p>
+      <ol>
+        <li><strong>Add Ingredients:</strong> Type in ingredients you have or take a photo to detect them automatically</li>
+        <li><strong>Set Preferences:</strong> Specify dietary preferences and number of servings</li>
+        <li><strong>Get Recipes:</strong> Receive personalized, AI-generated recipes with step-by-step instructions</li>
+      </ol>
+    `,
+    techStack: ['AI/ML', 'React', 'Python','JavaScript', 'Image Recognition', 'Web APIs', 'Responsive Design'],
+    links: [
+      { text: 'Live Demo', url: 'https://stellar-longma-577d56.netlify.app/' }
+    ],
+    screenshots: [
+    //   'assets/screenshots/snackhack-1.jpg',
+    //   'assets/screenshots/snackhack-2.jpg',
+    //   'assets/screenshots/snackhack-3.jpg'
+    ]
   }
 };
 
